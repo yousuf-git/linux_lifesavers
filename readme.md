@@ -8,7 +8,6 @@ This repository contains a collection of useful commands and scripts for Ubuntu 
 - [Usage](#usage)
 - [Scripts](#scripts)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
