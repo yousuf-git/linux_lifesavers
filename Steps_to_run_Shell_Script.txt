@@ -1,0 +1,20 @@
+Follow these steps to create and run a shell script of your own from your Ubuntu home directory:
+
+1. Create a directory to store your shell script
+2. Create a file in your scripts folder with a .sh extension
+3. Add an execute permission to the file to avoid permission denied errors during execution
+4. Use the ./ (dot slash)  notation and run the shell script by name in the Terminal window
+5. Press CTRL+C to stop the running Linux script if it does not terminate gracefully
+
+The steps described above are manifest in the following six commands:
+
+$ mkdir scripts
+$ cd scripts
+$ touch script.sh
+$ echo 'echo hello-world' >> script.sh
+$ chmod -R 777 .                        # 777 means read, write, and execute permissions for all users
+$ ./script.sh
+hello-world
+
+
+Reference: https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/run-Unix-shell-script-Linux-Ubuntu-command-chmod-777-permission-steps
